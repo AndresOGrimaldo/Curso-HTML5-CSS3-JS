@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+
+<!-- tabla de html5 compleja -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tablas</title>
+</head>
+
+<body>
+  <h1>Ejemplo de tabla: combinado de filas y columnas</h1>
+
+  <table border ="1">
+    <caption>Una tabla de muestra más compleja</caption>
+
+    <thead>
+      <!-- los elementos rowspan y colspan cobinan el número -->
+      <!-- especificado de celdas en sentido vertical u horizontal -->
+      <tr>
+        <th rowspan = "2">
+          <img src="camello.jpg" width = "205"
+           height = "167" alt="Imagen de un camello con joroba">
+        </th>
+
+        <!-- combina cuatro columnas  -->
+        <th colspan = "4">
+          <strong>Comparación de camélidos </strong> <br>
+          Fecha aproximada: 10/2011
+        </th>
+      </tr>
+      <tr>
+        <th>#jorobas</th>
+        <th>región indígena</th>
+        <th>Escupe?</th>
+        <th>Produce lana?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Camellos (bactrianos)</th>
+        <td>2</td>
+        <td>Africa/Asia</td>
+        <td>sí</td>
+        <td>sí</td>
+      </tr>
+      <tr>
+        <th>Llamas</th>
+        <td>1</td>
+        <td>Montañas de los Andes</td>
+        <td>Sí</td>
+        <td>Sí</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
